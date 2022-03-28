@@ -30,7 +30,7 @@ app.get("", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "Bout",
+    title: "About",
     name: "Rohan Garg",
     city: "Mumbai",
     age: 20,
